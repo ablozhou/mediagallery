@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>弹出框浏览图片，视频，音频</title>
+    <link type='text/css' href='css/demo.css' rel='stylesheet' media='screen' />
+    <link type='text/css' href='css/gallery.css' rel='stylesheet' media='screen' />
+</head>
+
+<body>
+    <div id='container'>
+        <div id='logo'>
+            <h1>弹窗浏览图片和音视频</h1>
+            <span class='title'>弹出框相册浏览，支持图片视频，音频</span> </div>
+        <div id='image-gallery'>
+            <div id="abloz_wrapper">
+                <!-- 添加展示代码 -->
+                <div class="abloz_image">
+                    <a href="img/content/1.jpg"><img src="img/content/1.jpg" alt="" title="姐弟一" width="75" height="75"></a>
+                </div>
+                <div class="abloz_image">
+                    <a href="img/content/2.jpg"><img src="img/content/2.jpg" alt="" title="姐弟二" width="75" height="75"></a>
+                </div>
+                <div class="abloz_image">
+                    <a href="img/content/3.jpg"><img src="img/content/3.jpg" alt="" title="姐弟三" width="75" height="75"></a>
+                </div>
+                <div class="abloz_image">
+                    <a href="img/content/4.jpg"><img src="img/content/4.jpg" alt="" title="姐弟四" width="75" height="75"></a>
+                </div>
+                <div class="abloz_image">
+                    <a href="img/content/5.jpg"><img src="img/content/5.jpg" alt="" title="姐弟五" width="75" height="75"></a>
+                </div>
+                <div class="abloz_image">
+                    <a href="img/content/6.mp4">
+                        <video src="img/content/6.mp4" alt="" title="本尊" width="75" height="75" controls>
+                    </a>
+                </div>
+                <div class="abloz_image">
+                    <a href="img/content/7.mp3">
+                        <video src="img/content/7.mp3" alt="" title="音乐" width="75" height="75" controls>
+                    </a>
+                </div>
+
+            </div>
+            <!-- End of Flickr Badge -->
+            <!-- preload the images -->
+            <div style='display:none'> <img src='img/loading.gif' alt='' /> </div>
+        </div>
+        <!-- Load JavaScript files -->
+        <script type='text/javascript' src='js/jquery.js'></script>
+        <script type='text/javascript' src='js/jquery.simplemodal.js'></script>
+        <script type='text/javascript' src='js/gallery.js'></script>
+</body>
+
+</html>
